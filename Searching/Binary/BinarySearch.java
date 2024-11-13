@@ -1,4 +1,5 @@
 public class BinarySearch{
+    // to perform binary search array should to be in sorted order
     static int binarySearchFn(int arr[],int target){
         int si = 0; 
         int ei = arr.length-1;
@@ -17,7 +18,7 @@ public class BinarySearch{
     }
     public static void main(String args[]){
         int[] arr = {-2,11,22,33,44,56,89,90,101,2000};
-        int target = 44;
+        int target = 94;
 
         int idx = binarySearchFn(arr,target);
         System.out.println(idx);
